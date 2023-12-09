@@ -1,0 +1,9 @@
+namespace: drikke-org
+
+helm:
+  releaseName: drikke-org
+  chart: "helm"
+  repo: ""
+  version: ""
+  force: false
+  timeoutSeconds: 0

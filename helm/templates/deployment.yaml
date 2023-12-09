@@ -1,0 +1,36 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: drikke-org
+  name: drikke-org
+spec:
+  replicas: {{ .Values.replicas }}
+  selector:
+    matchLabels:
+      app: drikke-org
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: {{ .Values.maxSurge }}
+      maxUnavailable: {{ .Values.maxUnavailable }}
+
+  template:
+    metadata:
+      labels:
+        app: drikke-org
+    spec:
+      containers:
+        - image: {{ .Values.image }}
+          name: drikke-org
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+              name: http
+          readinessProbe:
+            initialDelaySeconds: 30
+            periodSeconds: 20
+            httpGet:
+              path: /health
+              port: http
