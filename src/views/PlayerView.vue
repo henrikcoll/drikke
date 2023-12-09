@@ -55,4 +55,4 @@ setup();
     </div>
     </div>
   </div>
-</template>@/stores/deck
+</template>

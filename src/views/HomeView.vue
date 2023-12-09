@@ -1,17 +1,16 @@
-
-
-<template>
-	<div class="home">
-		<Button @click="$router.push({ name: 'player-select' })">Start Game</Button>
-	</div>
-</template>
-
-<script>
+<script setup>
 import Button from "@/components/Button.vue";
 
-export default {
-	components: {
-		Button
-	}
-};
 </script>
+
+<template>
+  <div class="w-screen h-screen flex flex-col justify-center items-center text-center">
+    <div class="whitespace-nowrap">
+      <h1 class="text-8xl font-bold">Welcome to drikke.org</h1>
+	  <p class="text-gray-400 text-xl">Up ahead there is alot of nsfw content and some sfw. Also, drink responsibly.</p>
+	  <div>
+		  <Button class="w mt-2 text-2xl" @click="$router.push({ name: 'player-select' })">Ok</Button>
+	  </div>
+    </div>
+  </div>
+</template>
