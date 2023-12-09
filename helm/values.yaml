@@ -1,4 +1,4 @@
-image: ghcr.io/henrikcoll/drikke
+image: ghcr.io/henrikcoll/drikke:v1.1.0
 host: drikke.org
 replicas: 1
 maxSurge: 1
