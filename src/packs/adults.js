@@ -108,11 +108,11 @@ export default [
 		count: 1
 	},
 	{
-		text: g => `${g.current()} take a bodyshot or give one yourself`,
+		text: g => `${g.current()} take a bodyshot`,
 		count: 2
 	},
 	{
-		text: g => `${g.current()} give a bodyshot or take it yourself`,
+		text: g => `${g.current()} give a bodyshot`,
 		count: 2
 	},
 	{
@@ -230,7 +230,7 @@ export default [
 		count: 1
 	},
 	{
-		text: g => `Who do you think has the smallest & biggest dick?`,
+		text: g => `${g.current()} who do you think has the smallest & biggest dick?`,
 		count: 1
 	},
 	{
@@ -426,31 +426,31 @@ export default [
 		count: 1
 	},
 	{
-		text: g => `Kiss the crotch of the person on your right`,
+		text: g => `${g.current()} kiss the crotch of the person on your right`,
 		count: 2
 	},
 	{
-		text: g => `Kiss the crotch of the person on your left`,
+		text: g => `${g.current()} kiss the crotch of the person on your left`,
 		count: 2
 	},
 	{
-		text: g => `Give oral sex to the person on your left, or finish your drink`,
+		text: g => `${g.current()} give oral sex to the person on your left, or finish your drink`,
 		count: 2
 	},
 	{
-		text: g => `Give oral sex to the person on your right, or finish your drink`,
+		text: g => `${g.current()} give oral sex to the person on your right, or finish your drink`,
 		count: 2
 	},
 	{
-		text: g => `Describe your sexual fantasy in detail`,
+		text: g => `${g.current()} describe your sexual fantasy in detail`,
 		count: 3
 	},
 	{
-		text: g => `Eat something in a sexual way`,
+		text: g => `${g.current()} eat something in a sexual way`,
 		count: 3
 	},
 	{
-		text: g => `Dip your finger in something sweet, smear it on someones lips and lick/kiss it away`,
+		text: g => `${g.current()} dip your finger in something sweet, smear it on someones lips and lick/kiss it away`,
 		count: 3
 	},
 	{
