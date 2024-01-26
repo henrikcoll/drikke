@@ -20,12 +20,12 @@ setup();
 <template>
   <div v-if="deck.cardCounter < deck.cards.length" class="w-screen h-screen flex items-center justify-center" @click="deck.next">
     <div>
-      <h1 class="text-8xl font-bold text-center">{{ deck.current }}</h1>
+      <h1 class="text-5xl sm:text-6xl lg:text-8xl font-bold text-center select-none">{{ deck.current }}</h1>
     </div>
   </div>
   <div v-else class="w-screen h-screen flex items-center justify-center">
   <div>
-      <h1 class="text-8xl font-bold">Game Over!</h1>
+      <h1 class="text-5xl sm:text-6xl lg:text-8xl font-bold text-center select-none">Game Over!</h1>
       <div class="text-center py-3 flex flex-row space-x-2 justify-center">
         <Button @click="$router.push({ name: 'pack-select' })">Change packs</Button>
         <Button @click="$router.push({ name: 'player-select' })">New game</Button>
