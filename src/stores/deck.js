@@ -28,10 +28,14 @@ export const useDeck = defineStore('deck', {
 			this.cards = [];
 		},
 		next() {
-			this.cardCounter++;
+		  this.cardCounter++;
 		},
 		loadPacks(packs) {
 			let cards = [];
+
+			if (window.umami) {
+				window.umami.track('loadPacks', { packs: packs.join(',') })
+			}
 
 			for (let pack of packs) {
 				const newCards = getPack(pack);
