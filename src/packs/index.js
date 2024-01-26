@@ -11,6 +11,5 @@ const packs = {
 }
 
 export const getPack = (name) => {
-	console.log(name, packs[name])
 	return packs[name];
 }
