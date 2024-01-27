@@ -56,7 +56,7 @@ export default [
 		count: 2
 	},
 	{
-		text: g => `${g.current()} what is your iggest turn-off?`,
+		text: g => `${g.current()} what is your biggest turn-off?`,
 		count: 2
 	},
 	{
@@ -262,7 +262,7 @@ export default [
 		count: 1
 	},
 	{
-		text: g => `Missionairy, doggy or cowgirl/cowboy/cowperson?`,
+		text: g => `Missionairy, doggy or cowgirl/cowboy?`,
 		count: 1
 	},
 	{
