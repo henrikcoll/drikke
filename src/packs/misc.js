@@ -64,14 +64,6 @@ export default [
     count: 1,
   },
   {
-    text: (g) => `The oldest player has to take 3 sips.`,
-    count: 1,
-  },
-  {
-    text: (g) => `The youngest player gives out 3 sips.`,
-    count: 1,
-  },
-  {
     text: (g) => `${g.current()} who do you think is the smartest?`,
     count: 1,
   },
