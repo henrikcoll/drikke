@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.5.1] - 2024-07-26
+### :bug: Bug Fixes
+- [`d121d49`](https://github.com/henrikcoll/drikke/commit/d121d494a06bc81966beecfa621591e2d812ece4) - fixed index.html *(commit by [@henrikcoll](https://github.com/henrikcoll))*
+
+
 ## [v1.5.0] - 2024-07-26
 ### :sparkles: New Features
 - [`9dc893e`](https://github.com/henrikcoll/drikke/commit/9dc893e4ecbd0dd4c9b183618d2bce7ec35d12d3) - added cards *(commit by [@henrikcoll](https://github.com/henrikcoll))*
@@ -45,3 +50,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [v1.4.0]: https://github.com/henrikcoll/drikke/compare/v1.3.0...v1.4.0
 [v1.5.0]: https://github.com/henrikcoll/drikke/compare/v1.4.0...v1.5.0
+[v1.5.1]: https://github.com/henrikcoll/drikke/compare/v1.5.0...v1.5.1
